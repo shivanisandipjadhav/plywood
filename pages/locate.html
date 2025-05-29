@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+      body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+          
+        /* background-color: #FAF3E0; */
+      
+        
+        }
+        .container-fluid{
+        margin-left: 500px;
+        }
+        
+        .nav1{
+     
+     padding: 15px 20px;
+     cursor: pointer;
+     transition: 2s;
+     
+
+    
+}
+.nav1:hover{
+  transform:scale(1.1);
+    /* background-color:antiquewhite; */
+    background: linear-gradient(90deg, #8b4513 60%, #deb887 100%);
+}
+
+    
+
+
+
+        .locate{
+            border: 1px solid black;
+            height: 200px;
+            width: 1400px;
+            display: flex;
+            justify-content: space-evenly;
+            border-radius: 10px;
+            margin-top: -230px;
+            /* background: linear-gradient(90deg, #8b4513 10%, #deb887 90%); */
+            position:relative;
+            margin-left: 50px;
+            background-color: white;
+            border: none;
+            box-shadow:0px 4px 8px;
+           
+        }
+        .locate-1{
+            height: 90px;
+            width: 300px;
+            border: 1px solid black;
+            margin-top: 50px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px;
+        }
+      .Country{
+        margin-left: 30px;
+        margin-top: -1px;
+        font-size: 20px;
+        font-weight:500;
+        
+
+      }
+      .country-1{
+    box-shadow: 0px 4px 8px;
+  border: none;
+  outline: none;
+  
+  padding: 10px 20px;
+  margin-top: -150px;
+  /* margin-top: -80px; */
+  font-size: 18px;
+  width: 270px;
+  border-radius: 5px;
+  margin-left: 20px;
+  background: linear-gradient(90deg, #8b4513 10%, #deb887 90%);
+
+
+      }
+
+      .country-1:hover {
+  
+  background-color:white;
+}
+
+.result{
+text-align: center;
+margin-top: 100px;
+font-weight: bold;
+font-size: 40px;
+/* margin-left: 500px; */
+}
+.question{
+  font-weight: bold;
+  font-size: 60px;
+  margin-top: 80px;
+  margin-left: 80px;
+
+}
+
+.need{
+  font-weight:bold;
+  font-size: 25px;
+  color: green;
+  margin-left: 80px;
+}
+.g {
+  display: block;
+  margin-left: 700px;
+
+  margin-top: -200px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #8b4513;
+  color: white;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 8px;
+  cursor: pointer;
+}
+.g:hover {
+  background-color: #deb887;
+  color: #8b4513;
+  
+}
+.box{
+  width: 800px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 600px;
+  margin-top:40px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px;
+ border: none;
+  background: linear-gradient(90deg, #8b4513 10%, #deb887 90%);
+  ;
+  
+
+
+  
+}
+.box-1{
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  color: white;
+  line-height: 2.5;
+
+}
+.man{
+  margin-top: -110px;
+  margin-left: 50px;
+}
+
+    </style>
+</head>
+<body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<nav class="navbar navbar-light " style="background: linear-gradient(90deg, #8b4513 60%, #deb887 100%);">
+  <div class="container-fluid">
+    <img src="../images/vk1.png" alt="" height="100px" width="200px" class="logo" style="margin-left: -400px;">
+    <a href="./homepage.html"  style="text-decoration: none; color: black;" class="nav1">Home</a>
+    <a href="./about.html" style="text-decoration: none; color: black;" class="nav1">About</a>
+    <a href="./services.html" style="text-decoration: none; color: black;" class="nav1">Service</a>
+    <a href="./contracter.html" style="text-decoration: none; color: black;" class="nav1">Contracter</a>
+    <a href="./inspiration.css" style="text-decoration: none; color: black;" class="nav1"> Inspiration</a>
+    <a href="./contact.html" style="text-decoration: none; color: black;" class="nav1">Contact</a>
+    <!-- <a class="navbar-brand">Navbar</a> -->
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    <img src="../images/locate...1.jpg" alt="" width="1500px" style="position:sticky;">
+<div class="locate">
+<div class="locate-1">  
+  <p class="Country">Country:</p>
+  <select  class=" country-1" id="">--select country --
+  <option value=""> india</option>
+  <option value=""> india</option>
+  <option value=""> india</option>
+  <option value=""> india</option></select>
+  <option value=""></option>
+     </div>
+    
+<div class="locate-1"><p class="Country">state:</p> <select  class=" country-1" id="">--select state --
+  <option value=""> maharashtra</option>
+  <option value=""> delhi</option>
+  <option value="">up</option>
+  <option value=""> gujrat</option></select></div>
+<div class="locate-1"><p class="Country">city:</p> <select  class=" country-1" id="">--select city --
+  <option value=""> mumbai</option>
+  <option value=""> pune</option>
+  <option value=""> karnatak</option>
+  <option value=""> nagar</option></select> </div> 
+<div class="locate-1"><p class="Country" style="text-align: center; margin-top: 25px; "><a href="./contracter.html" style="text-decoration: none; color: black;"> search for contracter </a> </p> </div>
+</div>
+
+<div>
+  <p class="result"> <h1 class="result"> Total Contracter Result (0) </h1> </p>
+<div class="question">Frequently <br> Asked Question </div>
+ <p class="need">Need Answers? We got them</p>
+</div>
+ <button class="g">General</button>
+ <div class="box">
+<span class="box-1">What is the cost of hiring a carpenter?<br>
+What should I keep in mind while hiring a contractor?<br>
+Does interior cost is calculated per square foot wise?<br></span>
+ </div>
+ <img class="man" src="../images/locate man img.jpg" alt="" height="200px" width="500px" >
+<footer style="background: linear-gradient(90deg, #8b4513 60%, #deb887 100%); color: #fff; padding: 40px 0 20px 0; margin-top: 60px; border-radius: 30px 30px 0 0; box-shadow: 0 -4px 24px #8b451355;">
+  <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content:space-evenly; align-items: flex-start; gap: 100px;">
+    <div style="flex: 1; min-width: 220px;">
+      <img src="../images/vk1.png" alt="S&N Plywood Logo" style="height: 90px; border-radius: 12px; margin-bottom: 15px;">
+      <p style="font-size: 1.1rem; color: #ffe4c4;">Quality plywood for your dream interiors.<br>Serving since 1990.</p>
+    </div>
+    <div style=" min-width: 180px;">
+      <h4 style="color: #fff; font-weight: bold; margin-bottom: 15px;">Quick Links</h4>
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        <li><a href="./homepage.html" style="color: #ffe4c4; text-decoration: none;">Home</a></li>
+        <li><a href="./about.html" style="color: #ffe4c4; text-decoration: none;">About</a></li>
+        <li><a href="./services.html" style="color: #ffe4c4; text-decoration: none;">Services</a></li>
+        <li><a href="./contact.html" style="color: #ffe4c4; text-decoration: none;">Contact</a></li>
+        <li><a href="./contact.html" style="color: #ffe4c4; text-decoration: none;">Contact</a></li>
+        <li><a href="./contact.html" style="color: #ffe4c4; text-decoration: none;">Contact</a></li>
+      </ul>
+    </div>
+    <div style="min-width: 220px;">
+      <h4 style="color: #fff; font-weight: bold; margin-bottom: 15px;">Contact Us</h4>
+      <p style="color: #ffe4c4; margin-bottom: 8px;"><strong>Email:</strong> info@snplywood.com</p>
+      <p style="color: #ffe4c4; margin-bottom: 8px;"><strong>Phone:</strong> +91 98765 43210</p>
+      <p style="color: #ffe4c4;"><strong>Address:</strong> 123, Main Road, Your City</p>
+    </div>
+    <div style="flex: 1; min-width: 180px;">
+      <h4 style="color: #fff; font-weight: bold; margin-bottom: 15px;">Follow Us</h4>
+      <a href="#" style="margin-right: 12px;  text-decoration: none;">
+        <img src="../images/social (1)(1).png" alt="" height="30px" width="30px" >
+      
+        
+      </a>
+      <a href="#" style="margin-right: 12px;  text-decoration: none;">
+        
+         <img src="../images/facebook(1).png" alt="" height="30px" width="30px" >
+
+      </a>
+      <a href="#" style=" text-decoration: none;">
+        <img src="../images/twitter(1).png" alt="" height="30px" width="30px" >
+        
+      </a>
+    </div>
+  </div>
+  <div style="text-align: center; margin-top: 30px; font-size: 1rem;">
+    &copy; 2025 S&N Plywood. All rights reserved.
+  </div>
+</footer>
+    
+    
+
+
+    
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contractor | S&N Plywood</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container-fluid {
+            margin-left: 500px;
+        }
+        .nav1 {
+            padding: 15px 20px;
+            cursor: pointer;
+            transition: 2s;
+        }
+        .nav1:hover {
+            transform: scale(1.1);
+            background: linear-gradient(90deg, #8b4513 60%, #deb887 100%);
+        }
+        .contractor-section {
+            
+            
+            background: #fff8f0;
+            border-radius: 20px;
+            /* box-shadow: 0 8px 32px rgba(139,69,19,0.10); */
+            
+        }
+        .contractor-title {
+            color: #8b4513;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 40px;
+        }
+        .contractor-list {
+            display: flex;
+            justify-content: space-evenly;
+        
+            gap: 30px;
+        
+        }
+        .contractor-card {
+            background: #fff;
+            border: 2px solid #deb887;
+            border-radius: 15px;
+            box-shadow: 0 2px 8px #deb88755;
+            padding: 25px 20px;
+            
+            text-align: center;
+            transition:2s;
+        }
+        .contractor-card:hover {
+            transform: scale(0.9);
+            
+            box-shadow: 0 8px 24px #8b451355;
+        }
+        .contractor-img {
+            width: 80px;
+            height: 80px;
+            
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 2px solid #8b4513;
+        }
+        .contractor-name {
+            color: #8b4513;
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        .contractor-contact {
+            color: #333;
+            font-size: 1rem;
+        
+        }
+        .contractor-btn {
+            margin-top: 10px;
+            background: #8b4513;
+            color: #fff;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 28px;
+            font-weight: bold;
+            transition:  0.3s;
+        }
+        .contractor-btn:hover {
+            background: #deb887;
+            
+        }
+    </style>
+</head>
+<body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light" style="background: linear-gradient(90deg, #8b4513 60%, #deb887 100%);">
+      <div class="container-fluid">
+        <img src="../images/WhatsApp Image 2025-05-15 at 20.26.29_5a8f9f1d.jpg" alt="" height="100px" width="100px" class="logo" style="margin-left: -400px;">
+        <a href="./homepage.html" class="nav1" style="text-decoration: none; color: black;">Home</a>
+        <a href="./inspiration.html" class="nav1" style="text-decoration: none; color: black;">Inspiration</a>
+        <a href="./contracter.html" class="nav1" style="text-decoration: none; color: black;">Contractor</a>
+        <a href="./contact.html" class="nav1" style="text-decoration: none; color: black;">Contact</a>
+        <a href="./services.html" class="nav1" style="text-decoration: none; color: black;">Services</a>
+        <a href="./about.html" class="nav1" style="text-decoration: none; color: black;">About</a>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Contractor Section -->
+    <section class="contractor-section"data-aos="fade-left" style="transition: 3s; " >
+      <div class="contractor-title">Find Trusted Contractors</div>
+      <div class="contractor-list">
+        <div class="contractor-card">
+          <img src="../images/boy2.webp" alt="Contractor 1" class="contractor-img">
+          <div class="contractor-name">Amit Sharma</div>
+          <div class="contractor-contact">📞 +91 98765 12345</div>
+          <div class="contractor-contact">📧 amit.sharma@email.com</div>
+          <button class="contractor-btn">Contact</button>
+        </div>
+        <div class="contractor-card">
+          <img src="../images/person girl.jpg" alt="Contractor 2" class="contractor-img">
+          <div class="contractor-name">Priya Verma</div>
+          <div class="contractor-contact">📞 +91 99887 65432</div>
+          <div class="contractor-contact">📧 priya.verma@email.com</div>
+          <button class="contractor-btn">Contact</button>
+        </div>
+        <div class="contractor-card" >
+          <img src="../images/person boy.jpg" alt="Contractor 3" class="contractor-img">
+          <div class="contractor-name">Rakesh Singh</div>
+          <div class="contractor-contact">📞 +91 91234 56789</div>
+          <div class="contractor-contact">📧 rakesh.singh@email.com</div>
+          <button class="contractor-btn">Contact</button>
+        </div>
+        <!-- Add more contractor cards as needed -->
+      </div>
+    </section>
+     <section class="contractor-section" data-aos="fade-right" style="transition: 3s;">
+         <br><br><br><br><br>
+      <!-- <div class="contractor-title">Find Trusted Contractors</div> -->
+      <div class="contractor-list">
+        <div class="contractor-card">
+          <img src="../images/" alt="Contractor 1" class="contractor-img">
+          <div class="contractor-name">Amit Sharma</div>
+          <div class="contractor-contact">📞 +91 98765 12345</div>
+          <div class="contractor-contact">📧 amit.sharma@email.com</div>
+          <button class="contractor-btn">Contact</button>
+        </div>
+        <div class="contractor-card">
+          <img src="../images/2nd.jpg" alt="Contractor 2" class="contractor-img">
+          <div class="contractor-name">Priya Verma</div>
+          <div class="contractor-contact">📞 +91 99887 65432</div>
+          <div class="contractor-contact">📧 priya.verma@email.com</div>
+          <button class="contractor-btn">Contact</button>
+        </div>
+        <div class="contractor-card" >
+          <img src="../images/3rd.jpg" alt="Contractor 3" class="contractor-img">
+          <div class="contractor-name">Rakesh Singh</div>
+          <div class="contractor-contact">📞 +91 91234 56789</div>
+          <div class="contractor-contact">📧 rakesh.singh@email.com</div>
+          <button class="contractor-btn">Contact</button>
+        </div>
+         </div>
+    </section>
+ <section class="contractor-section"data-aos="fade-left" style="transition: 3s;">
+    <br><br><br><br><br>
+      <!-- <div class="contractor-title" style="margin-bottom: -100px; "></div> -->
+      <div class="contractor-list">
+        <div class="contractor-card">
+          <img src="../images/1st.jpg" alt="Contractor 1" class="contractor-img">
+          <div class="contractor-name">Amit Sharma</div>
+          <div class="contractor-contact">📞 +91 98765 12345</div>
+          <div class="contractor-contact">📧 amit.sharma@email.com</div>
+          <button class="contractor-btn">Contact</button>
+        </div>
+        <div class="contractor-card">
+          <img src="../images/girl3.jpg" alt="Contractor 2" class="contractor-img">
+          <div class="contractor-name">Priya Verma</div>
+          <div class="contractor-contact">📞 +91 99887 65432</div>
+          <div class="contractor-contact">📧 priya.verma@email.com</div>
+          <button class="contractor-btn">Contact</button>
+        </div>
+        <div class="contractor-card" >
+          <img src="../images/person boy.jpg" alt="Contractor 3" class="contractor-img">
+          <div class="contractor-name">Rakesh Singh</div>
+          <div class="contractor-contact">📞 +91 91234 56789</div>
+          <div class="contractor-contact">📧 rakesh.singh@email.com</div>
+          <button class="contractor-btn">Contact</button>
+        </div>
+         </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: linear-gradient(90deg, #8b4513 60%, #deb887 100%); color: #fff; padding: 40px 0 20px 0; margin-top: 60px; border-radius: 30px 30px 0 0; box-shadow: 0 -4px 24px #8b451355;">
+      <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content:space-evenly; align-items: flex-start; gap: 100px;">
+        <div style="flex: 1; min-width: 220px;">
+          <img src="../images/WhatsApp Image 2025-05-15 at 20.26.29_5a8f9f1d.jpg" alt="S&N Plywood Logo" style="height: 70px; border-radius: 12px; margin-bottom: 15px;">
+          <p style="font-size: 1.1rem; color: #ffe4c4;">Quality plywood for your dream interiors.<br>Serving since 1990.</p>
+        </div>
+        <div style=" min-width: 180px;">
+          <h4 style="color: #fff; font-weight: bold; margin-bottom: 15px;">Quick Links</h4>
+          <ul style="list-style: none; padding: 0; margin: 0;">
+            <li><a href="./homepage.html" style="color: #ffe4c4; text-decoration: none;">Home</a></li>
+            <li><a href="./about.html" style="color: #ffe4c4; text-decoration: none;">About</a></li>
+            <li><a href="./services.html" style="color: #ffe4c4; text-decoration: none;">Services</a></li>
+            <li><a href="./contact.html" style="color: #ffe4c4; text-decoration: none;">Contact</a></li>
+          </ul>
+        </div>
+        <div style="min-width: 220px;">
+          <h4 style="color: #fff; font-weight: bold; margin-bottom: 15px;">Contact Us</h4>
+          <p style="color: #ffe4c4; margin-bottom: 8px;"><strong>Email:</strong> info@snplywood.com</p>
+          <p style="color: #ffe4c4; margin-bottom: 8px;"><strong>Phone:</strong> +91 98765 43210</p>
+          <p style="color: #ffe4c4;"><strong>Address:</strong> 123, Main Road, Your City</p>
+        </div>
+        <div style="flex: 1; min-width: 180px;">
+          <h4 style="color: #fff; font-weight: bold; margin-bottom: 15px;">Follow Us</h4>
+          <a href="#" style="margin-right: 12px;  text-decoration: none;">
+            <span style="vertical-align: middle;">&#x1F426;</span> 
+          </a>
+          <a href="#" style="margin-right: 12px;  text-decoration: none;">
+            <span style="vertical-align: middle;">&#x1F4F7;</span> 
+          </a>
+          <a href="#" style=" text-decoration: none;">
+            <span style="vertical-align: middle;">&#x1F4F1;</span> 
+          </a>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 30px; font-size: 1rem;">
+        &copy; 2025 S&N Plywood. All rights reserved.
+      </div>
+    </footer>
+</body>
+</html>

@@ -7,25 +7,38 @@
     <title>Document</title>
     <link rel="stylesheet" href="./homepage.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+          
+        /* background-color: #FAF3E0; */
+      
+        
         }
         .container-fluid{
         margin-left: 500px;
         }
         
         .nav1{
-     background-color:burlywood;
+     
      padding: 15px 20px;
+     cursor: pointer;
+     transition: 2s;
+     
+
     
 }
 .nav1:hover{
-    background-color:antiquewhite;
+  transform:scale(1.1);
+    /* background-color:antiquewhite; */
+    background: linear-gradient(90deg, #8b4513 60%, #deb887 100%);
 }
+/*  end of navbar */
+
+
       
         .container1{
         height:650px;
@@ -45,36 +58,337 @@
             display: flex;
             justify-content:space-around;
             padding: 50px;
+           
           
             
           
 
         }
+       
+
+
+        .child{
+     transition: 2s;
+     cursor: pointer;
+
+        }
+        .child:hover{
+          transform: scale(0.9);
+        }
+        .h1{
+            font-size: 50px;
+            text-align: center;
+            margin-left: 280px;
+            color: #8b4513;
+            margin-top: 80px;
+            font-weight: bold;
+        }
+        /* end of parent */
         
 .bedroom{
   padding: 20px;
   transition: color 0.3s;
+  transition: 2s;
+  cursor: pointer;
 }
 .bedroom:hover {
   color: #d2691e; 
+  transform: scale(0.9);
 }
+.btn{
+  
+  
+  color:black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 30px;
+  
+  
+}
+.btn:hover {
+  
+  background: linear-gradient(90deg, #8b4513 60%, #deb887 100%);
+}
+.bed1{
+  display: flex;
+  justify-content: space-around;
+}
+
+ /* start of row */
+
+.bed{
+  height: 200px;
+  width: 200px;
+  
+}
+
+.img-hover{
+  background-image: url(../images/bed.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+   height: 200px;
+  width: 200px;
+}
+.img-hover:hover{
+  transition: 2s;
+  transform: scale(0.9);
+  background-image: url(../images/bed2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 200px;
+  width: 200px;
+}
+.img-hover1{
+  background-image: url(../images/bedroom.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+   height: 200px;
+  width: 200px;
+   
+  
+}
+.img-hover1:hover{
+  transition: 2s;
+  transform: scale(0.9);
+  background-image: url(../images/bedroom.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 200px;
+  width: 200px;
+  
+}
+.img-hover2{
+  background-image: url(../images/chair1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+   height: 200px;
+  width: 200px;
+  
+}
+.img-hover2:hover{
+  transition: 2s;
+  transform: scale(0.9);
+  background-image: url(../images/chair2.jpeg );
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 200px;
+  width:200px;
+}
+.img-hover3{
+  background-image: url(../images/study\ table.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+   height: 200px;
+  width: 200px;
+}
+.img-hover3:hover{
+  transition: 2s;
+  transform: scale(0.9);
+  background-image: url(../images/study\ table2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 200px;
+  width: 200px;
+}
+.img-hover4{
+  background-image: url(../images/sofa.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+   height: 200px;
+  width: 200px;
+}
+.img-hover4:hover{
+  transition: 2s;
+  transform: scale(0.9);
+  background-image: url(../images/sofa2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+   height: 200px;
+  width: 200px;
+}
+
+.bed3{
+  text-align: center;
+ 
+  margin-top: 10px;
+  color: #8b4513;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 80px;
+  
+    
+}
+.bed4{
+   text-align: center;
+ 
+  margin-top: 10px;
+  color: #8b4513;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 50px;
+
+}
+/* end of row */ 
+.block{
+  display: flex;
+  justify-content:space-around;
+   
+
+
+
+}
+.block-1{
+  border: 0px solid ;
+  height: 200px;
+  width: 500px;
+  margin-top: 50px;
+  /* background-color: transparent; */
+  background-color: burlywood;
+  /* background: linear-gradient(90deg, #8b4513 60%, #deb887 100%); */
+  text-align:center;
+  transition: 2s;
+  cursor: pointer;
+  
+
+
+}
+.block-1:hover{
+  transform: scale(0.9);
+
+}
+
+
+.material{
+  margin-top: 30px;
+
+}
+.Calculator{
+  border: 1px solid black;
+  height: 50px;
+  width: 120px;
+  
+  border-radius: 50px ;
+  box-shadow: 0px 4px 8px;
+  margin-top: 20px;
+}
+.p-div{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.c-div{
+  height: 400px;
+  width: 300px;
+  background-color: burlywood;
+  border: 2px solid burlywood;
+
+  border-radius: 10px;
+
+  
+  box-shadow: 0px 4px 8px;
+}
+.extra-info{
+  font-weight: bold;
+padding-top: 200px;
+  /* margin-bottom: 50px; */
+  
+  text-align: center;
+  
+  
+}
+.view{
+  background-color:#f4f4f4; 
+  color:black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 30px;
+  box-shadow: 0px 4px 5px ;
+  margin-left: 100px;
+  margin-top:10px;
+  border-radius: 10px;
+  
+
+}
+/* start of explore s and n */
+.card{
+  cursor: pointer;
+  box-shadow: 0px 4px 8px;
+  transition: 0.3s;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 2px solid #8b4513;
+  
+
+ 
+  
+
+}
+.card:hover{
+
+    transform: scale(1.05);
+    transition: 0.3s;
+
+  
+  
+}
+.card-img-top{
+  
+  box-shadow: 0px 4px 8px;
+
+}
+.card-img-top:hover{
+  transform: scale(0.9);
+  transition: 0.3s;
+  box-shadow: 0px 8px 16px;
+  
+}
+/* end of explore s and n */ 
+
+.idias {
+ 
+  cursor: pointer;
+ 
+
+  transition: 2s;
+}
+.idias:hover {
+  
+  transform: scale(0.9);
+}
+
+
+
+
 
        
     </style>
 
 </head>
 <body>
+  
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<nav class="navbar navbar-light " style="background-color:burlywood;">
+<nav class="navbar navbar-light " style="background: linear-gradient(90deg, #8b4513 60%, #deb887 100%);">
   <div class="container-fluid">
-    <img src="../images/WhatsApp Image 2025-05-15 at 20.26.29_5a8f9f1d.jpg" alt="" height="100px" width="100px" class="logo" style="margin-left: -400px;">
+    <img src="../images/vk1.png" alt="" height="100px" width="200px" class="logo" style="margin-left: -400px;">
     <a href="./homepage.html"  style="text-decoration: none; color: black;" class="nav1">Home</a>
-    <a href="./inspiration.css" style="text-decoration: none; color: black;" class="nav1">Inspiration</a>
-    <a href="./contracter.html" style="text-decoration: none; color: black;" class="nav1">Contarcter</a>
-    <a href="./contact.html" style="text-decoration: none; color: black;" class="nav1">Contact</a>
-    <a href="./services.html" style="text-decoration: none; color: black;" class="nav1">Services</a>
     <a href="./about.html" style="text-decoration: none; color: black;" class="nav1">About</a>
+    <a href="./services.html" style="text-decoration: none; color: black;" class="nav1">Service</a>
+    <a href="./contracter.html" style="text-decoration: none; color: black;" class="nav1">Contracter</a>
+    <a href="./inspiration.css" style="text-decoration: none; color: black;" class="nav1"> Inspiration</a>
+    <a href="./contact.html" style="text-decoration: none; color: black;" class="nav1">Contact</a>
     <!-- <a class="navbar-brand">Navbar</a> -->
     <form class="d-flex">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -82,7 +396,11 @@
     </form>
   </div>
 </nav>
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel ">
+
+<!-- carousel  -->
+ 
+<div id= "carouselExampleFade" class="carousel slide carousel-fade " data-bs-ride="carousel" data-bs-interval="3000">
+
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="../images/1.jpg" class="d-block w-100" alt="..." height="700px">
@@ -103,35 +421,249 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<!-- end of carousel -->
+<div> <span class="h1" data-aos="zoom-in-up" style="transition: 2s;">
+      Design Your Interiors With S&N Plywood</span></div>
 <div class="parent"> 
   <div class="child"><img src="../images/bedroom.jpg" alt=""><br><p class="bedroom"> Bedroom
      
-      <button class="btn" style="border: 1px solid black; border-radius: 50% ; height: 50x; width: 50px; background-color:grey; margin-left: 150px;">
+      <button class="btn" >
 buy
       </button>
   </p> </div>
-  <div class="child"><img src="../images/living room.jpg" alt=""><p class="bedroom" > Living room</p> </div>
-    <div class="child"><img src="../images/office.jpg" alt=""><p class="bedroom">Office</p> </div>
-      <div class="child"><img src="../images/kitchen.jpg" alt=""><p class="bedroom">Kitchen </p> </div>
+  <div class="child"><img src="../images/living room.jpg" alt=""><p class="bedroom" > Living room  <button class="btn" >
+buy
+      </button></p> 
+  </div>
+    <div class="child"><img src="../images/office.jpg" alt=""><p class="bedroom">Office  <button class="btn" >
+buy
+      </button></p> </div>
+      <div class="child"><img src="../images/kitchen.jpg" alt=""><p class="bedroom">Kitchen <button class="btn" >
+buy
+      </button> </p> </div>
       
     </div>
-      
-      
-    
-     
+    <!-- end of parent div -->
+     <!-- start of row --> 
+    <div class="bed1">
+    <div class="bed " data-aos="zoom-in-down" style="transition: 2s;"> <img class="img-hover"  alt=""  height="150px" width="197px"> <span class="bed3"> Bed</span></div>
+ <div class="bed" data-aos="zoom-in-down" style="transition: 2s;"> <img class="img-hover1"alt="" height="150px" width="197px"> <span class="bed4">Bedroom</span></div>
+  <div class="bed" data-aos="zoom-in-down" style="transition: 2s;"> <img class="img-hover2" alt=""  height="150px" width="197px"> <span class="bed3">Chair</span></div>
+   <div class="bed" data-aos="zoom-in-down" style="transition: 2s;"><img class="img-hover3" alt=""  height="150px" width="197px"> <span class="bed4"> Study Table</span></div>
+   <div class="bed" data-aos="zoom-in-down" style="transition: 2s;"><img class="img-hover4" alt=""  height="150px" width="197px"> <span class="bed3">Sofa</span></div>
+      </div>
+      <div>
+    <!-- end of row --> 
+     <!-- start of explore s and n -->
 
+      <div> <h1 class="h2" style=" text-align: center; margin-top:  50px; color:#8b4513;font-weight: bold; " > Explore Our S&N Plywood Products</h1></div>
+      <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top:50px;">
+        
+  <div class="col">
+    <div class="card">
+      <img src="../images/plywood&blockboard.jpg"class="card-img-top" alt="..." height="400px" width="50px">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center;"> Veneers</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="../images/doors.jpg" class="card-img-top" alt="..." height="400px" width="100px">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center;">MDF and Board</h5>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src=" ../images/1st.jpg" class="card-img-top" alt="..." height="400px" width="100px">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center;">PVC</h5>
 
+      </div>
+    </div>
+  </div>
+  
+    </div>
+  </div>
+</div>
+<!-- end of explore s and n  -->
+ <!-- start of find what you need -->
 
+   <div >
+<h1 class="h3"style=" text-align: center; margin-top:  50px; color:#8b4513;font-weight: bold;" > Find What You Need</h1>
+<div class="block">
+  <div class="block-1" data-aos="fade-right" style="transition: 2s;"><h2 class="material" >Material Calculator </h2></a>get an estimate price for your Interiors needs<br> <button class="Calculator"><a href="./calculate1.html" style="color: black; text-decoration: none;"> Calculate </a></button></div>
+  <div class="block-1" data-aos="fade-left" style="transition: 2s;"><h2 class="material">Find Nearest S&N plywood Store </h2> connect with authorise S&N dealer near you.<br><button class="Calculator"> <a href="./location.html" style="color: black; text-decoration: none;">Location </a></button> </div>
+</div>
+   </div>
+   <div>
+    <h2 class="h3" style=" text-align: center; margin-top:  50px; color:#8b4513;font-weight: bold;">We Help You To Create  </h2>
+    <div >
 
-    
-    
-       
-     
+<div class="block">
+  <div class="block-1" data-aos="fade-right" style="transition: 2s; background-color: antiquewhite;"><h2 class="material" >Find a Contracter </h2></a><button class="Calculator"> <a href="./locate.html" style="text-decoration: none; color: black;">Locate</a></button></div>
+  <div class="block-1" data-aos="fade-left" style="transition: 2s; background-color: antiquewhite;"><h2 class="material">Find an Architect/Interior </h2> <br><button class="Calculator">Locate</button> </div>
+</div>
+   </div>
+   </div>
+   
+</div>
+<!-- end of find what you need -->
+  <div class="p-div marquee"  data-aos="fade-right" style="transition:2s;" >
+    <div class="c-div" style="background-color:rgb(196, 228, 230);"> <img src="../images/pink.png" alt="" height="250px" width="297px"> <span class="extra-info">How Digital Verification is changing the Way  WE Buy Building Materials <button class="view"> <a href="./gallery.html" style="text-decoration: none; color: black;">view </a></button></span></div>
+    <div class="c-div"  style="background-color:rgb(196, 228, 230);"> <img src="../images/pink2.png" alt="" height="250px" width="297px"><span class=" extra-info"> The Ultimate Contemporary Office Snace With Centurvplv Products <button class="view"> <a href="./gallery.html" style="text-decoration: none; color: black;">view </a></button></span></div>
+    <div class="c-div"  style="background-color:rgb(196, 228, 230);"> <img src="../images/pink3.png" alt="" height="250px" width="297px"> <span class=" extra-info"> Biophilic Designs: A Guide to Bringing Nature Into Your Home  <button class="view"> <a href="./gallery.html" style="text-decoration: none; color: black;">view </a></button></span></div>
+    <div class="c-div"  style="background-color:rgb(196, 228, 230)"> <img src="../images/pink4.png" alt="" height="250px" width="297px"> <span class=" extra-info"> the Ultimate Contemporary Office Snace With Centurvplv Products<button class="view"> <a href="./gallery.html" style="text-decoration: none; color: black;">view </a></button></span></div>
+
+  </div>
+  
+   <div style="display: flex; justify-content: center; align-items: center; margin: 60px auto 60px 0; max-width: 1200px; min-height: 550px; position: relative;">
+  <div style="flex: 2; min-width: 500px; position: relative;">
+    <img src="../images/img.png" alt="Contact" style="width: 125%; height: 550px; object-fit: cover; border-radius: 20px; box-shadow: 0 8px 32px rgba(139,69,19,0.15);">
+    <form action="#" method="post" style="
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 350px;
+      background: rgba(255,255,255,0.92);
+      padding: 30px 25px 25px 25px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(139,69,19,0.25);
+      border: 2px solid #8b4513;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 600px;
+    ">
+      <h2 style="text-align:center; color:#8b4513; margin-bottom:20px; font-size:2rem; font-weight:bold; letter-spacing:1px; text-shadow: 1px 1px 8px #fff;">Contact Us</h2>
+      <div class="mb-3">
+        <label for="name" class="form-label" style="font-size:1rem; color:#8b4513; font-weight:600;">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" required style="height:40px; font-size:1rem; border-radius:8px;">
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label" style="font-size:1rem; color:#8b4513; font-weight:600;">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required style="height:40px; font-size:1rem; border-radius:8px;">
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label" style="font-size:1rem; color:#8b4513; font-weight:600;">Message:</label>
+        <textarea class="form-control" id="message" name="message" rows="3" required style="font-size:1rem; border-radius:8px;"></textarea>
+      </div>
+      <button type="submit" class="btn" style="background-color:#8b4513; color:#fff; border:none; font-size:1.1rem; font-weight:bold; padding:10px 30px; border-radius:20px; margin-left:50%; transform:translateX(-50%); box-shadow:0 4px 12px #8b451355;">Send</button>
+    </form>
+  </div>
+</div>
+
+<!-- 3D Gallery Start -->
+ 
+<div style="text-align: center; margin-top: 50px;">
+  <h1 class="h3" style="color:#8b4513;font-weight: bold;">Explore Our 3D Gallery</h1>
+  <p style="color:#8b4513; font-size: 1.2rem;">Experience the beauty of our products in a virtual space.</p>
+  <a href="./gallery.html" class="btn" style ="background-color:#8b4513; color:#fff; border:none; font-size:1.1rem; font-weight:bold;  border-radius:20px; box-shadow:0 4px 12px #8b451355;">View Gallery</a>
+</div>
+
+ 
+  <div class="video-container">
+    <h1 class="h3">
+    <p style="text-align: center; color:#8b4513; font-size:50; font-weight: bold; margin-top:50px;">Experience Our Craftsmanship in motion</p>
+    <p style="text-align: center; color:#8b4513; font-size: 1.2rem;">Watch our videos to see the quality and beauty of our products.</p>
+    <!-- <span> <h1></h1></span> -->
+  
+                <video class="video-one"  style=" height: 500px; margin-top: 100px; margin-left: 100px; box-shadow:0px 4px 8px burlywood; border-radius: 10px;" controls autoplay muted loop>
+                    <source src="../images/video1.mp4" type="video/mp4">
+                    
+                    Your browser does not support the video tag.
+                </video>
+                
+                 <video  class="video-2" style=" height: 500px; margin-left: 200px; margin-top: 100px;  box-shadow:0px 4px 8px burlywood; border-radius: 10px;" autoplay muted loop>
+                    <source src="../images/video4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+              
+                </div>
+                <div class="virat">
+                 <video class="video-3" style=" height: 500px; margin-top: 100px; margin-left: 100px;  box-shadow:0px 4px 8px burlywood; border-radius: 10px;" controls autoplay muted loop>
+                    <source src="../images/video3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                 <video class="video-4"style=" height: 500px;  margin-left: 200px; margin-top: 100px;  box-shadow:0px 4px 8px burlywood; border-radius: 10px;" controls autoplay muted loop>
+                    <source src="../images/video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div></div>
+            <div class="trending">
+              <span>
+                <h1 style="text-align: center; margin-top: 50px; color:#8b4513;font-weight: bold;">Trending  Design Idias</h1>
+                <p style="text-align: center; color:#8b4513; font-size: 1.2rem;">Discover the latest trends in plywood and interior design.</p>
+
+              </span>
+              <div class="design" style="display: flex; justify-content:space-evenly; margin-top: 50px;">
+                <div class="design-1"><img class="idias" src="../images/blockboards.webp" alt=""> <p class="bedroom">Home office Design Trends To Watch  <button class="btn" > view</button> </div>
+                <div class="design-1"><img class="idias" src="../images/product-veeners.webp" alt="" ><p class="bedroom">Home office Design Trends To Watch  <button class="btn" > view</button> </div> </div>
+              
+
+              </div>
+              <div>
+  <h1 class="h3" style=" text-align: center; margin-top:  50px; color:#8b4513;font-weight: bold;">  S&N Plywood Gurantee</h1>
+ <div class="block" style="display: flex;">
+  <div  class="block-11" style="margin-top: 80px;"> <img src="../images/why-choose-one.svg" alt="" height="80px"></div>
+   <div  class="block-11" style="margin-top: 80px;"><img src="../images/why-choose-two.svg" alt="" height="80px"> </div>
+    <div  class="block-11" style="margin-top: 80px;"> <img src="../images/why-choose-three.svg" alt="" height="80px"></div>
+     <div  class="block-11" style="margin-top: 80px;"><img src="../images/why-choose-four.svg" alt="" height="80px"> </div>
+      <div  class="block-11" style="margin-top: 80px;"><img src="../images/why-choose-five.svg" alt="" height="80px"> </div>
+
+ </div>
+          
             
+<!-- footer -->
+<footer style="background: linear-gradient(90deg, #8b4513 60%, #deb887 100%); color: #fff; padding: 40px 0 20px 0; margin-top: 60px; border-radius: 30px 30px 0 0; box-shadow: 0 -4px 24px #8b451355;">
+  <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content:space-evenly; align-items: flex-start; gap: 100px;">
+    <div style="flex: 1; min-width: 220px;">
+      <img src="../images/vk1.png" alt="S&N Plywood Logo" style="height: 90px; border-radius: 12px; margin-bottom: 15px;">
+      <p style="font-size: 1.1rem; color: #ffe4c4;">Quality plywood for your dream interiors.<br>Serving since 1990.</p>
+    </div>
+    <div style=" min-width: 180px;">
+      <h4 style="color: #fff; font-weight: bold; margin-bottom: 15px;">Quick Links</h4>
+      <ul style="list-style: none; padding: 0; margin: 0;">
+        <li><a href="./homepage.html" style="color: #ffe4c4; text-decoration: none;">Home</a></li>
+        <li><a href="./about.html" style="color: #ffe4c4; text-decoration: none;">About</a></li>
+        <li><a href="./services.html" style="color: #ffe4c4; text-decoration: none;">Services</a></li>
+        <li><a href="./contact.html" style="color: #ffe4c4; text-decoration: none;">Contact</a></li>
+        <li><a href="./contact.html" style="color: #ffe4c4; text-decoration: none;">Contact</a></li>
+        <li><a href="./contact.html" style="color: #ffe4c4; text-decoration: none;">Contact</a></li>
+      </ul>
+    </div>
+    <div style="min-width: 220px;">
+      <h4 style="color: #fff; font-weight: bold; margin-bottom: 15px;">Contact Us</h4>
+      <p style="color: #ffe4c4; margin-bottom: 8px;"><strong>Email:</strong> info@snplywood.com</p>
+      <p style="color: #ffe4c4; margin-bottom: 8px;"><strong>Phone:</strong> +91 98765 43210</p>
+      <p style="color: #ffe4c4;"><strong>Address:</strong> 123, Main Road, Your City</p>
+    </div>
+    <div style="flex: 1; min-width: 180px;">
+      <h4 style="color: #fff; font-weight: bold; margin-bottom: 15px;">Follow Us</h4>
+      <a href="#" style="margin-right: 12px;  text-decoration: none;">
+        <img src="../images/social (1)(1).png" alt="" height="30px" width="30px" >
+      
+        
+      </a>
+      <a href="#" style="margin-right: 12px;  text-decoration: none;">
+        
+         <img src="../images/facebook(1).png" alt="" height="30px" width="30px" >
 
-
-       
-    
+      </a>
+      <a href="#" style=" text-decoration: none;">
+        <img src="../images/twitter(1).png" alt="" height="30px" width="30px" >
+        
+      </a>
+    </div>
+  </div>
+  <div style="text-align: center; margin-top: 30px; font-size: 1rem;">
+    &copy; 2025 S&N Plywood. All rights reserved.
+  </div>
+</footer>
     
     
 </body>
